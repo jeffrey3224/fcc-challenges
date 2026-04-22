@@ -1,4 +1,4 @@
-function cardValues(cards) {
+export default function cardValues(cards) {
   return cards.map((card) => {
     const input = card.toUpperCase();
 
